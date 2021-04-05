@@ -1,6 +1,8 @@
 .header{
     height:60px;
-    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.1);
+    font-weight: bold;
+    box-shadow: 0 2px 4px 0 rgba(4, 139, 72, 0.801);
+    
     .wrap{
         max-width: auto;
         height: 100%;
@@ -9,7 +11,8 @@
         .logo{ 
             position: absolute;
             top:60%;
-            left: 100px;
+            left: 95px;
+            //border:2px solid rgb(245, 248, 245);
             -webkit-transform:translateY(-50%);
             -moz-transform: translateY(-50%);
             transform: translateY(-50%);

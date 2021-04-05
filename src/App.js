@@ -5,6 +5,8 @@ import HomePage from './pages/HomePage/index';
 import Registration from './pages/Registration';
 import {Route,Switch} from 'react-router-dom';
 import Footer from './component/Footer/index'
+import About from './pages/About/index';
+
 function App() {
   return (
     <div className="App">
@@ -13,6 +15,7 @@ function App() {
         <Switch>
           <Route exact path ="/" component={HomePage} />
           <Route path ="/registration" component={Registration} />
+          <Route path ="/about" component={About} />
         </Switch>
       </div> 
       <Footer/>
